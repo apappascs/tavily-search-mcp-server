@@ -2,6 +2,8 @@
 
 An MCP server implementation that integrates the Tavily Search API, providing optimized search capabilities for LLMs.
 
+<a href="https://glama.ai/mcp/servers/0kmdibf9t1"><img width="380" height="200" src="https://glama.ai/mcp/servers/0kmdibf9t1/badge" alt="tavily-search-mcp-server MCP server" /></a>
+
 ## Features
 
 -   **Web Search:** Perform web searches optimized for LLMs, with control over search depth, topic, and time range.
