@@ -1,5 +1,6 @@
 # Tavily Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@apappascs/tavily-search-mcp-server)](https://smithery.ai/server/@apappascs/tavily-search-mcp-server)
 An MCP server implementation that integrates the Tavily Search API, providing optimized search capabilities for LLMs.
 
 <a href="https://glama.ai/mcp/servers/0kmdibf9t1"><img width="380" height="200" src="https://glama.ai/mcp/servers/0kmdibf9t1/badge" alt="tavily-search-mcp-server MCP server" /></a>
@@ -143,6 +144,14 @@ An MCP server implementation that integrates the Tavily Search API, providing op
     -   If you are using docker make sure you build the image first using `docker build -t tavily-search-mcp-server:latest .`
 
 4. Restart Claude Desktop for the changes to take effect.
+
+### Installing via Smithery
+
+To install Tavily Search for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@apappascs/tavily-search-mcp-server):
+
+```bash
+npx -y @smithery/cli install @apappascs/tavily-search-mcp-server --client claude
+```
 
 ## Environment Setup (for npm)
 
